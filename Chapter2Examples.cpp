@@ -8,6 +8,7 @@ first, middle, last. Store you initials in these variables, then, displaly them 
 */
 
 #include <iostream>
+#include <string>
 
 int main()
 {
@@ -20,6 +21,6 @@ int main()
   std::cin >> middleInitial;
   std::cout << "Please enter the initial of your last name:";
   std::cin >> lastInitial;
-  std::cout << "Your initals are: " << firstInitial << middleInitial << lastInitial;
+  std::cout << "Your initals are: " << firstInitial << middleInitial << lastInitial << std::endl;
 
 }
